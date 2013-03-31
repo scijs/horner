@@ -1,0 +1,33 @@
+{
+  "name": "horner",
+  "version": "0.0.0",
+  "description": "Evaluates polynomial",
+  "main": "horner.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bit-twiddle": "~0.0.1"
+  },
+  "devDependencies": {
+    "tap": "~0.4.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/horner.git"
+  },
+  "keywords": [
+    "polynomial",
+    "math",
+    "algebra",
+    "horner",
+    "evaluate"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "510734233fc334ce7449212b00e1a88881ec2d3e"
+}
