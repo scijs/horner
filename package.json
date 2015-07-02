@@ -1,25 +1,26 @@
 {
   "name": "horner",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Evaluates polynomial",
   "main": "horner.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "bit-twiddle": "~0.0.1"
+    "next-pow-2": "^1.0.0"
   },
   "devDependencies": {
-    "tap": "~0.4.1"
+    "tape": "^4.0.0"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/mikolalysenko/horner.git"
   },
   "keywords": [
+    "scijs",
     "polynomial",
     "math",
     "algebra",
@@ -29,5 +30,8 @@
   "author": "Mikola Lysenko",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "510734233fc334ce7449212b00e1a88881ec2d3e"
+  "gitHead": "510734233fc334ce7449212b00e1a88881ec2d3e",
+  "bugs": {
+    "url": "https://github.com/scijs/horner/issues"
+  }
 }

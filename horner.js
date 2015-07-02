@@ -1,6 +1,6 @@
 "use strict"
 
-var bits = require("bit-twiddle")
+var nextPow2 = require("next-pow-2")
 
 function horner_cplx(r_coef, i_coef, r_z, i_z) {
   var n = r_coef.length
@@ -49,7 +49,7 @@ function horner(poly, z) {
   }
   if(z.length) {
     if(scratch.length < poly.length) {
-      scratch = new Float32Array(bits.nextPow2(poly.length))
+      scratch = new Float32Array(nextPow2(poly.length))
     }
     return horner_cplx(poly, scratch, z[0], z[1])
   }

@@ -1,6 +1,6 @@
 var horner = require("../horner.js")
 
-require("tap").test("horner's rule", function(t) {
+require("tape")("horner's rule", function(t) {
 
   t.equals(horner([1, 0, 1], 2.0), 5.0)
   t.equals(horner([1, 0, 2], 2.0), 9)
